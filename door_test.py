@@ -24,7 +24,7 @@ class TestDoor:
         a_door.close_the_door()
         assert a_door.door_is_open == False
 
-        def test_door_locking(self, a_door):
+    def test_door_locking(self, a_door):
         a_door.lock_the_door()
         assert a_door.door_ist_locked
 
