@@ -9,7 +9,7 @@ class TestDoor:
         return Door(DoorLock(), 'green')
 
 
-    def test_Initial(self,a_door):
+    def test_initial(self,a_door):
         assert a_door.color == 'green'
 
     def test_get_set_color(self, a_door):
