@@ -1,14 +1,58 @@
 {
-  "tests": [
-    {
-      "name": "Pytest",
-      "setup": "sudo -H pip3 install -r requirements.txt",
-      "run": "pytest -v  -k \"test\"",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    }
-  ]
+"tests": [
+{"name": "test_Initial",
+"setup": "sudo -H pip3 install -r requirements.txt",
+"run": "pytest -v  -k \"test_Initial\"",
+"input": "",
+"output": "",
+"comparison": "included",
+"timeout": 10,
+"points": 1
+},
+{"name": "test_get_set_color",
+"setup": "sudo -H pip3 install -r requirements.txt",
+"run": "pytest -v  -k \"test_get_set_color\"",
+"input": "",
+"output": "",
+"comparison": "included",
+"timeout": 10,
+"points": 1
+},
+{"name": "test_door_open",
+"setup": "sudo -H pip3 install -r requirements.txt",
+"run": "pytest -v  -k \"test_door_open\"",
+"input": "",
+"output": "",
+"comparison": "included",
+"timeout": 10,
+"points": 1
+},
+{"name": "test_door_close",
+"setup": "sudo -H pip3 install -r requirements.txt",
+"run": "pytest -v  -k \"test_door_close\"",
+"input": "",
+"output": "",
+"comparison": "included",
+"timeout": 10,
+"points": 1
+},
+{"name": "test_door_locking",
+"setup": "sudo -H pip3 install -r requirements.txt",
+"run": "pytest -v  -k \"test_door_locking\"",
+"input": "",
+"output": "",
+"comparison": "included",
+"timeout": 10,
+"points": 1
+},
+{"name": "test_door_unlock",
+"setup": "sudo -H pip3 install -r requirements.txt",
+"run": "pytest -v  -k \"test_door_unlock\"",
+"input": "",
+"output": "",
+"comparison": "included",
+"timeout": 10,
+"points": 1
+}
+]
 }
