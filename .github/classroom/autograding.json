@@ -1,8 +1,8 @@
 {
 "tests": [
-{"name": "test_Initial",
+{"name": "test_initial",
 "setup": "sudo -H pip3 install -r requirements.txt",
-"run": "pytest -v  -k \"test_Initial\"",
+"run": "pytest -v  -k \"test_initial\"",
 "input": "",
 "output": "",
 "comparison": "included",
